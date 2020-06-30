@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Page</title>
+</head>
+<body>
+    <div class="delivery1">
+        <h2> For your <strong>Door-Step Delivery</strong><img src="shoes.jpg" height="45mm" width="55mm" alt="logo1" >
+        </h2>
+        <hr>
+    </div>
+    <div class="delivery2">
+        <form>
+            <fieldset>
+                <legend>Your details</legend>
+               <ul>
+               <li> <label>Name</label></li>
+                <input type="text" name="name_delivery" maxlength="1000"placeholder="Enter your fullname">
+                <li><label>Email address</label><br></li>
+                <input type="email" name="email_delivery" maxlength="100" placeholder="Enter your email address">
+                <li><label>Phone number</label><br></li>
+                <input type="telephone" name="phone_delivery" maxlength="100" placeholder="Enter your telephone number">
+                <li><label>Sex</label><br></li>
+                <input type="radio" name="sex" value="male" checked>Male
+                <input type="radio" name="sex" value="female"> female
+            
+               <li> <label>Home address</label><br></li>
+                <textarea name="homeaddress" placeholder="Give details of your home address" rows="8" cols="30"></textarea>
+            </ul> </fieldset>
+                <fieldset>
+                    <legend>Delivery Specs</legend>
+                    <ul>
+                   <li> <label>Shoe type</label><br></li>
+                    <input type="radio" name="shoetype" value="male-type" checked>Men's Type
+                    <input type="radio" name="shoetype" value="female-type">Ladies' type
+                    <br>
+                    <li><label>Color</label></li>
+                    <input type="radio" name="color" value="white" checked>White
+                    <input type="radio" name="color" value="black">Black
+                    <input type="radio" name="color" value="red">Red
+                    <input type="radio" name="color" value="brown">Brown
+                    <input type="radio" name="color" value="purple">Purple
+                    <br>
+                    <li><label>Shoe Size</label></li>
+                    <input type="radio" name="size" value="small" checked>Medium
+                    <input type="radio" name="size" value="medium">Medium
+                    <input type="radio" name="size" value="big">Big
+                    <br>
+                    <li><label>Delivery mode</label></li>
+                    <input type="radio" name="mode" value="regular">Regular mode
+                    <input type="radio" name="mode" value="VIP">VIP mode
+                    <input type="radio" name="mode" value="VVIP">VVIP mode
+                </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Payment Instructions</legend>
+                    <ul>
+                    <li><label >Bank Name</label></li>
+                    <select>
+                        <option>--select a bank--</option>
+                        <option>Access</option>
+                        <option>Diamond</option>
+                        <option>Skye</option>
+                        <option>Zenith</option>
+                        <option>UBA</option>
+                        <option>Ecobank</option>
+                        <option>Firt Bank</option>
+                        <option>Union</option>
+                        <option>Jaiz</option>
+                        <option>FCMB</option>
+                    </select>
+                    <li><label >Account Name</label> </li>
+                    <input type="text"  name="accountname" placeholder="Enter your account name" >
+                     <li> <label >Account Number</label></li>
+                    <input type="text"  name="accountnumber" placeholder="Enter your account number here" >
+                </ul>
+                </fieldset>
+                <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="foot">
+        <p>Copyright &copy 2020</p>
+        <p>All rights reserved</p>
+    </div>
+</body>
+</html>
